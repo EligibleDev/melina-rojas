@@ -1,0 +1,13 @@
+/* default styles. have to skip while pasting into highLevel editor */
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.banner {
+    padding: 50px;
+    background: red;
+}
