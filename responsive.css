@@ -1,5 +1,6 @@
+/* responsive styles for mobile devices */
 @media (min-width: 640px) {
-    /* banner responsive styles for mobile devices */
+    /* banner responsive styles */
     .banner .banner-icon {
         width: 170px;
     }
@@ -11,14 +12,40 @@
     .banner .banner-logo {
         padding: 1.5rem;
     }
+
+    /* intro responsive styles */
+    .intro .intro-title {
+        width: 50%;
+    }
 }
+
+/* responsive styles for tablet devices */
 @media (min-width: 768px) {
+    /* intro responsive styles */
+    .intro .intro-title {
+        padding-left: 2rem;
+    }
 }
+
+/* responsive styles for laptop devices */
 @media (min-width: 1024px) {
+    /* intro responsive styles */
+    .intro .intro-title {
+        margin: -8rem 0px 0px;
+    }
 }
+
+/* responsive styles for desktop devices */
 @media (min-width: 1280px) {
-    /* banner responsive styles for desktop devices */
-    .banner {
+    /* banner responsive styles */
+    section.banner {
         min-height: 700px;
+        background-size: 100% 100%;
+    }
+
+    /* intro responsive styles */
+    .intro .intro-title {
+        width: 35%;
+        padding-left: 5rem;
     }
 }

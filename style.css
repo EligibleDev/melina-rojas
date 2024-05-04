@@ -3,8 +3,6 @@
     padding: 0px;
     margin: 0px;
     font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
 }
 
 /* accent colors */
@@ -17,14 +15,13 @@
 }
 
 /* banner styles */
-.banner {
+section.banner {
     height: 100vh;
     min-height: 500px;
     background-image: url("./assets/banner-bg.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-size: 100% 100%; */
     display: flex;
     align-items: center;
 }
@@ -67,3 +64,21 @@
 }
 
 /* intro styles */
+section.intro {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url(./assets/into-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.intro .intro-title {
+    padding-left: 0.75rem;
+    margin-bottom: -4rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: white;
+}
