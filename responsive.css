@@ -1,5 +1,5 @@
 /* responsive styles for mobile devices */
-@media (min-width: 640px) {
+@media (min-width: 425px) {
     /* banner */
     .banner .banner-icon {
         width: 170px;
@@ -26,6 +26,24 @@
 
     .about .about-container {
         gap: 1rem;
+    }
+
+    /* symbolic details */
+    .symbolic-details .symbolic-content-photos {
+        flex-direction: row;
+    }
+
+    .symbolic-details .symbolic-content-photo {
+        width: 32.5%;
+        margin: 0px;
+    }
+
+    .symbolic-details .symbolic-details-title {
+        font-size: 1.3rem;
+    }
+
+    .symbolic-details .symbolic-details-title > span {
+        font-size: 1.8rem;
     }
 }
 
@@ -58,6 +76,27 @@
     .about .about-container {
         gap: 1.5rem;
     }
+
+    /* symbolic details */
+    section.symbolic-details {
+        flex-direction: row;
+        padding: 0px;
+    }
+
+    .symbolic-details .symbolic-details-photo {
+        width: 40%;
+        height: 100%;
+        align-self: stretch;
+    }
+
+    .symbolic-details .symbolic-details-container {
+        width: 60%;
+        padding: 0px 2rem;
+    }
+
+    .symbolic-details .symbolic-details-title {
+        flex-direction: row;
+    }
 }
 
 /* responsive styles for desktop devices */
@@ -82,5 +121,15 @@
 
     .about .about-content {
         font-size: 1.2rem;
+    }
+
+    /* symbolic details */
+    .symbolic-details .symbolic-details-container {
+        width: 60%;
+        padding: 0px 2rem;
+    }
+
+    .symbolic-details .symbolic-details-content {
+        font-size: 1.1rem;
     }
 }
