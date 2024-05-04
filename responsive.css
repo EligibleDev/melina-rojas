@@ -1,0 +1,24 @@
+@media (min-width: 640px) {
+    /* banner responsive styles for mobile devices */
+    .banner .banner-icon {
+        width: 170px;
+    }
+
+    .banner .banner-tagline {
+        font-size: 1.5rem;
+    }
+
+    .banner .banner-logo {
+        padding: 1.5rem;
+    }
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 1024px) {
+}
+@media (min-width: 1280px) {
+    /* banner responsive styles for desktop devices */
+    .banner {
+        min-height: 700px;
+    }
+}
