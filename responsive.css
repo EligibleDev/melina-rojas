@@ -1,6 +1,6 @@
 /* responsive styles for mobile devices */
 @media (min-width: 640px) {
-    /* banner responsive styles */
+    /* banner */
     .banner .banner-icon {
         width: 170px;
     }
@@ -13,15 +13,25 @@
         padding: 1.5rem;
     }
 
-    /* intro responsive styles */
+    /* intro */
     .intro .intro-title {
         width: 50%;
+    }
+
+    /* about */
+    section.about {
+        padding: 2rem;
+        gap: 1rem;
+    }
+
+    .about .about-container {
+        gap: 1rem;
     }
 }
 
 /* responsive styles for tablet devices */
 @media (min-width: 768px) {
-    /* intro responsive styles */
+    /* intro */
     .intro .intro-title {
         padding-left: 2rem;
     }
@@ -29,23 +39,48 @@
 
 /* responsive styles for laptop devices */
 @media (min-width: 1024px) {
-    /* intro responsive styles */
+    /* intro */
     .intro .intro-title {
         margin: -8rem 0px 0px;
+    }
+
+    /* about */
+    section.about {
+        flex-direction: row;
+        padding: 2rem;
+        gap: 1.5rem;
+    }
+
+    .about .about-photo {
+        width: 50%;
+    }
+
+    .about .about-container {
+        gap: 1.5rem;
     }
 }
 
 /* responsive styles for desktop devices */
 @media (min-width: 1280px) {
-    /* banner responsive styles */
+    /* banner */
     section.banner {
         min-height: 700px;
         background-size: 100% 100%;
     }
 
-    /* intro responsive styles */
+    /* intro */
     .intro .intro-title {
         width: 35%;
         padding-left: 5rem;
+    }
+
+    /* about */
+    section.about {
+        background-size: 100% 100%;
+        padding: 2rem 6rem;
+    }
+
+    .about .about-content {
+        font-size: 1.2rem;
     }
 }
