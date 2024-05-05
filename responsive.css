@@ -45,6 +45,16 @@
     .symbolic-details .symbolic-details-title > span {
         font-size: 1.8rem;
     }
+
+    /* poem */
+    .poem .poem-content {
+        font-size: 1rem;
+    }
+
+    /* gallery */
+    section.gallery {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
 }
 
 /* responsive styles for tablet devices */
@@ -96,6 +106,21 @@
 
     .symbolic-details .symbolic-details-title {
         flex-direction: row;
+    }
+
+    /* poem */
+    section.poem {
+        flex-direction: row;
+        padding: 1rem 4rem;
+    }
+
+    .poem .art-column {
+        width: 31%;
+        gap: 0.25rem;
+    }
+
+    .poem .gallery {
+        width: 31%;
     }
 }
 
