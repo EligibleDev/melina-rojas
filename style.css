@@ -5,7 +5,7 @@
     font-family: "Open Sans", sans-serif;
 }
 
-/* accent colors */
+/* accent colors and global styles */
 :root {
     --brown: #94626b;
     --primary-brown: #8a4f3b;
@@ -13,6 +13,21 @@
     --tan: #c8a771;
     --yellow: #f8dfc1;
     --red-tan: #d4c1b6;
+}
+
+.section-title {
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: var(--brown);
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.section-title > span {
+    font-size: 1.2rem;
+    color: var(--primary-brown);
 }
 
 /* banner styles */
@@ -145,21 +160,9 @@ section.symbolic-details {
     gap: 1.5rem;
 }
 
-.symbolic-details .symbolic-details-title {
-    font-size: 1rem;
-    font-weight: 400;
-    text-transform: uppercase;
-    color: var(--brown);
-    display: flex;
+.symbolic-details .section-title {
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    gap: 0.25rem;
-}
-
-.symbolic-details .symbolic-details-title > span {
-    font-size: 1.2rem;
-    color: var(--primary-brown);
 }
 
 .symbolic-details .symbolic-details-content {
@@ -320,4 +323,52 @@ section.gallery {
 
 .gallery .gallery-item > img:hover {
     transform: scale(1.25);
+}
+
+/* investments section */
+section.investments {
+    min-height: 100vh;
+    box-sizing: border-box;
+    background-image: url(./assets/banner-bg.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 1rem 0rem;
+}
+
+.investments .investments-container {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin: auto;
+}
+
+.investments .section-title {
+    flex-wrap: wrap;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.investments .section-title > span {
+    font-weight: 400;
+}
+
+.investments .investment-content {
+    color: var(--primary-brown);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.investments .process-image {
+    width: 100%;
+}
+
+.investments .process {
+    color: var(--primary-brown);
+    font-size: 90%;
+    /* font-size: 4vw; */
+    font-weight: 400;
 }

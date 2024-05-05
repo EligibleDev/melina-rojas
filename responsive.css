@@ -1,5 +1,14 @@
 /* responsive styles for mobile devices */
 @media (min-width: 425px) {
+    /* global */
+    .section-title {
+        font-size: 1.3rem;
+    }
+
+    .section-title > span {
+        font-size: 1.8rem;
+    }
+
     /* banner */
     .banner .banner-icon {
         width: 170px;
@@ -38,14 +47,6 @@
         margin: 0px;
     }
 
-    .symbolic-details .symbolic-details-title {
-        font-size: 1.3rem;
-    }
-
-    .symbolic-details .symbolic-details-title > span {
-        font-size: 1.8rem;
-    }
-
     /* poem */
     .poem .poem-content {
         font-size: 1rem;
@@ -55,6 +56,20 @@
     section.gallery {
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
+
+    /* investments */
+    .investments .investments-container {
+        width: 80%;
+        padding: 2.5rem;
+    }
+
+    .investments .section-title {
+        justify-content: flex-start;
+    }
+
+    .investments .process-image {
+        width: 90%;
+    }
 }
 
 /* responsive styles for tablet devices */
@@ -62,6 +77,20 @@
     /* intro */
     .intro .intro-title {
         padding-left: 2rem;
+    }
+
+    /* investments */
+    .investments .investments-container {
+        gap: 3rem;
+        margin: 0px;
+    }
+
+    .investments .process {
+        font-size: 1.5rem;
+    }
+
+    .investments .investment-content {
+        font-size: 1.3rem;
     }
 }
 
@@ -99,13 +128,13 @@
         align-self: stretch;
     }
 
+    .symbolic-details .section-title {
+        flex-direction: row;
+    }
+
     .symbolic-details .symbolic-details-container {
         width: 60%;
         padding: 0px 2rem;
-    }
-
-    .symbolic-details .symbolic-details-title {
-        flex-direction: row;
     }
 
     /* poem */
@@ -121,6 +150,11 @@
 
     .poem .gallery {
         width: 31%;
+    }
+
+    /* investments */
+    .investments .process {
+        font-size: 2rem;
     }
 }
 
@@ -156,5 +190,15 @@
 
     .symbolic-details .symbolic-details-content {
         font-size: 1.1rem;
+    }
+
+    /* investments */
+    section.investments {
+        background-position: -140px -75px;
+        background-size: 140%;
+    }
+
+    .investments .investments-container {
+        width: 60%;
     }
 }
