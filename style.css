@@ -83,7 +83,7 @@ section.banner {
 section.intro {
     height: 100vh;
     min-height: 500px;
-    background-image: url(./assets/into-bg.jpg);
+    background-image: url("./assets/into-bg.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -329,7 +329,7 @@ section.gallery {
 section.investments {
     min-height: 100vh;
     box-sizing: border-box;
-    background-image: url(./assets/banner-bg.webp);
+    background-image: url("./assets/banner-bg.webp");
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
@@ -371,4 +371,20 @@ section.investments {
     font-size: 90%;
     /* font-size: 4vw; */
     font-weight: 400;
+}
+
+/* reminder section */
+section.reminder {
+    height: 100vh;
+    background-image: url("./assets/reminder-bg.webp");
+    background-size: cover;
+    background-position: top center;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.reminder .reminder-container {
+    padding: 2rem;
+    font-size: 1.4rem;
+    color: var(--primary-brown);
 }

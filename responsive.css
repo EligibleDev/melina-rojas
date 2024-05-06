@@ -70,6 +70,11 @@
     .investments .process-image {
         width: 90%;
     }
+
+    /* reminder */
+    .reminder .reminder-container {
+        font-size: 1.6rem;
+    }
 }
 
 /* responsive styles for tablet devices */
@@ -91,6 +96,11 @@
 
     .investments .investment-content {
         font-size: 1.3rem;
+    }
+
+    /* reminder */
+    .reminder .reminder-container {
+        padding: 4rem;
     }
 }
 
