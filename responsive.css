@@ -269,4 +269,9 @@
     .process-details .element-content {
         font-size: 1.3rem;
     }
+
+    /* sea gallery */
+    section.sea-gallery {
+        display: flex;
+    }
 }

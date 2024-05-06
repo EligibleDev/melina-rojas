@@ -486,3 +486,54 @@ section.celebrate {
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 4.5px;
 }
+
+/* sea gallery styles */
+section.sea-gallery {
+    position: relative;
+    box-sizing: border-box;
+    height: 100vh;
+    border: 1.5rem solid #fae7e5;
+    background-color: #f7f9ff;
+    padding: 2.5rem;
+    display: none;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.sea-gallery .sea-column {
+    width: 34%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.sea-gallery .sea-column > img {
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+}
+
+.sea-gallery .sea-title {
+    color: var(--primary-brown);
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.sea-gallery .logo {
+    margin-left: auto;
+    width: 300px;
+    align-self: flex-end;
+}
+
+.sea-middle {
+    position: absolute;
+    height: 100%;
+    object-fit: cover;
+    left: 50%;
+    top: 0px;
+    bottom: 0px;
+    translate: -50%;
+}
