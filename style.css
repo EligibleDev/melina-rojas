@@ -537,3 +537,65 @@ section.sea-gallery {
     bottom: 0px;
     translate: -50%;
 }
+
+/* contact styles */
+
+section.contact {
+    height: 100vh;
+    position: relative;
+    background-image: url("./assets/banner-bg.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.contact .contact-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(250, 231, 229, 0.7);
+    z-index: 10;
+}
+
+.contact .contact-container {
+    position: relative;
+    z-index: 20;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.contact .contact-photo {
+    height: 100vw;
+    width: 100%;
+    object-fit: cover;
+    padding-top: 2rem;
+}
+
+.contact .contact-contents {
+    padding: 10rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.contact .contact-title {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    color: var(--primary-brown);
+}
+
+.contact .contact-title > img {
+    width: 125px;
+}
+
+.contact .contact-details {
+    font-weight: 500;
+    color: var(--brown);
+}

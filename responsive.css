@@ -150,6 +150,16 @@
         font-size: 6rem;
         -webkit-text-stroke: 8px;
     }
+
+    /* contact */
+    .contact .contact-container {
+        flex-direction: row;
+    }
+
+    .contact .contact-photo {
+        height: 100%;
+        width: auto;
+    }
 }
 
 /* responsive styles for laptop devices */
