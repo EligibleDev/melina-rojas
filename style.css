@@ -388,3 +388,19 @@ section.reminder {
     font-size: 1.4rem;
     color: var(--primary-brown);
 }
+
+/* process details styles */
+section.process-details {
+    height: 100vh;
+    background-image: url("./assets/banner-bg.webp");
+    background-position: center;
+    background-size: 140%;
+    box-sizing: border-box;
+    padding: 3rem;
+    padding-left: 8rem;
+}
+
+.process-details .process-container {
+    background-color: #e6eed261;
+    height: 100%;
+}
