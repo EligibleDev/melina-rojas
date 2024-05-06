@@ -126,6 +126,19 @@
     section.process-details {
         background-size: 300%;
     }
+
+    /* celebrate */
+    section.celebrate {
+        flex-direction: row;
+    }
+
+    .celebrate .left {
+        width: 35%;
+    }
+    .celebrate .right {
+        width: 65%;
+        padding-bottom: 8rem;
+    }
 }
 
 /* responsive styles for laptop devices */

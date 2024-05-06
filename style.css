@@ -441,3 +441,48 @@ section.process-details {
 .process-details .element-content > span {
     font-weight: 700;
 }
+
+/* celebrate styles */
+section.celebrate {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: stretch;
+}
+
+.celebrate .left {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./assets/symbolic-details-photo.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    padding: 3rem;
+}
+
+.celebrate .left > img {
+    width: 100%;
+}
+
+.celebrate .right {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    background-image: url("./assets/couple.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20rem 0px 6rem;
+}
+
+.celebrate .celebrate-title {
+    font-size: 4rem;
+    font-weight: 900;
+    color: var(--pink-white);
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 6px;
+}
