@@ -75,6 +75,25 @@
     .reminder .reminder-container {
         font-size: 1.6rem;
     }
+
+    /* process details */
+    section.process-details {
+        background-image: url("./assets/banner-bg.webp");
+        padding: 3rem;
+    }
+
+    .process-details .process-container {
+        padding: 4rem;
+    }
+
+    .process-details .process-element {
+        flex-direction: row;
+    }
+
+    .process-details .element-content {
+        width: 75%;
+        text-align: justify;
+    }
 }
 
 /* responsive styles for tablet devices */
@@ -101,6 +120,11 @@
     /* reminder */
     .reminder .reminder-container {
         padding: 4rem;
+    }
+
+    /* process details */
+    section.process-details {
+        background-size: 300%;
     }
 }
 
@@ -210,5 +234,15 @@
 
     .investments .investments-container {
         width: 60%;
+    }
+
+    /* process details */
+    section.process-details {
+        background-size: 140%;
+        padding-left: 8rem;
+    }
+
+    .process-details .element-content {
+        font-size: 1.3rem;
     }
 }
