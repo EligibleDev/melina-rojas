@@ -480,9 +480,9 @@ section.celebrate {
 }
 
 .celebrate .celebrate-title {
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 900;
     color: var(--pink-white);
     -webkit-text-fill-color: transparent;
-    -webkit-text-stroke-width: 6px;
+    -webkit-text-stroke-width: 4.5px;
 }

@@ -94,6 +94,12 @@
         width: 75%;
         text-align: justify;
     }
+
+    /* celebrate */
+    .celebrate .celebrate-title {
+        font-size: 4rem;
+        -webkit-text-stroke: 6px;
+    }
 }
 
 /* responsive styles for tablet devices */
@@ -138,6 +144,11 @@
     .celebrate .right {
         width: 65%;
         padding-bottom: 8rem;
+    }
+
+    .celebrate .celebrate-title {
+        font-size: 6rem;
+        -webkit-text-stroke: 8px;
     }
 }
 
