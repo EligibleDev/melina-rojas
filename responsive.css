@@ -25,6 +25,7 @@
     /* intro */
     .intro .intro-title {
         width: 50%;
+        font-size: 1.6rem;
     }
 
     /* about */
@@ -179,7 +180,7 @@
 @media (min-width: 1024px) {
     /* intro */
     .intro .intro-title {
-        margin: -8rem 0px 0px;
+        margin-top: 8rem;
     }
 
     /* about */

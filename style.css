@@ -93,16 +93,16 @@ section.intro {
     min-height: 500px;
     background-image: url("./assets/into-bg.jpg");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: bottom center;
     background-size: cover;
     display: flex;
-    align-items: center;
 }
 
 .intro .intro-title {
+    width: 75%;
     padding-left: 0.75rem;
-    margin-bottom: -4rem;
-    font-size: 1.6rem;
+    margin-top: 4rem;
+    font-size: 1.1rem;
     font-weight: 500;
     color: white;
 }
