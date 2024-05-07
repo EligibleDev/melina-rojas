@@ -93,7 +93,7 @@ section.intro {
     min-height: 500px;
     background-image: url("./assets/into-bg.jpg");
     background-repeat: no-repeat;
-    background-position: bottom center;
+    background-position: top center;
     background-size: cover;
     display: flex;
 }
@@ -447,7 +447,7 @@ section.reminder {
     height: 100vh;
     background-image: url("./assets/reminder-bg.webp");
     background-size: cover;
-    background-position: top center;
+    background-position: 15%;
     display: flex;
     justify-content: flex-end;
 }
@@ -456,6 +456,9 @@ section.reminder {
     padding: 2rem;
     font-size: 1.4rem;
     color: var(--primary-brown);
+    height: fit-content;
+    background-color: #dfd5caaa;
+    width: 100%;
 }
 
 /* process details styles */

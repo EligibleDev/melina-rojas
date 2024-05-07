@@ -73,8 +73,14 @@
     }
 
     /* reminder */
+    section.reminder {
+        background-position: top center;
+    }
+
     .reminder .reminder-container {
         font-size: 1.6rem;
+        background-color: transparent;
+        width: fit-content;
     }
 
     /* process details */
