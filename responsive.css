@@ -160,19 +160,19 @@
         padding-bottom: 8rem;
     }
 
-    .celebrate .celebrate-title {
-        font-size: 6rem;
-        -webkit-text-stroke: 8px;
-    }
-
     /* contact */
     .contact .contact-container {
         flex-direction: row;
     }
 
     .contact .contact-photo {
-        height: 100%;
         width: auto;
+        padding-top: 0px;
+    }
+
+    .contact .contact-contents {
+        padding: 10rem 1rem;
+        margin: 0px;
     }
 }
 
@@ -237,6 +237,12 @@
     /* investments */
     .investments .process {
         font-size: 2rem;
+    }
+
+    /* celebrate */
+    .celebrate .celebrate-title {
+        font-size: 6rem;
+        -webkit-text-stroke: 8px;
     }
 }
 
@@ -324,5 +330,14 @@
     /* sea gallery */
     section.sea-gallery {
         display: flex;
+    }
+
+    /* contact */
+    section.contact {
+        height: 100vh;
+    }
+
+    .contact .contact-photo {
+        height: 100%;
     }
 }

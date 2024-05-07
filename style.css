@@ -505,7 +505,7 @@ section.process-details {
 
 /* celebrate styles */
 section.celebrate {
-    height: 100vh;
+    max-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: stretch;
@@ -514,19 +514,16 @@ section.celebrate {
 
 .celebrate .left {
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-image: url("./assets/symbolic-details-photo.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    box-sizing: border-box;
-    padding: 3rem;
 }
 
 .celebrate .right {
     width: 100%;
+    height: 100%;
+    object-fit: cover;
     display: flex;
     align-items: flex-end;
     background-image: url("./assets/couple.webp");
@@ -596,9 +593,8 @@ section.sea-gallery {
 }
 
 /* contact styles */
-
 section.contact {
-    height: 100vh;
+    /* height: 100vh; */
     position: relative;
     background-image: url("./assets/banner-bg.webp");
     background-position: center;
@@ -626,19 +622,20 @@ section.contact {
 }
 
 .contact .contact-photo {
-    height: 100vw;
+    height: 100vh;
     width: 100%;
     object-fit: cover;
     padding-top: 2rem;
 }
 
 .contact .contact-contents {
-    padding: 10rem 1rem;
+    padding: 5rem 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 3rem;
+    margin: auto;
 }
 
 .contact .contact-title {
