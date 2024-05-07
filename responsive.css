@@ -133,6 +133,19 @@
         background-size: 300%;
     }
 
+    /* packages */
+    section.packages {
+        padding: 1.5rem;
+    }
+
+    .packages .element-right {
+        width: 90%;
+    }
+
+    .packages .packages-container {
+        padding: 3rem;
+    }
+
     /* celebrate */
     section.celebrate {
         flex-direction: row;
@@ -258,6 +271,33 @@
 
     .symbolic-details .symbolic-details-content {
         font-size: 1.1rem;
+    }
+
+    /* packages */
+    .packages h3,
+    div,
+    p,
+    del {
+        font-size: 1.2rem;
+    }
+
+    .packages .packages-container {
+        gap: 0px;
+    }
+
+    .packages .package-element {
+        flex-direction: row;
+        gap: 2rem;
+    }
+
+    .packages .element-left {
+        width: 22.5%;
+        justify-content: left;
+    }
+
+    .packages .element-right {
+        width: 77.5%;
+        text-align: left;
     }
 
     /* investments */

@@ -192,6 +192,67 @@ section.symbolic-details {
     margin: auto;
 }
 
+/* packages styles */
+section.packages {
+    background-color: #fff8f8;
+    padding: 0.5rem;
+}
+
+.packages h3,
+div,
+p,
+del {
+    color: var(--primary-brown);
+    font-size: 1rem;
+}
+
+.packages .packages-container {
+    background-color: #fae7e5;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.packages .package-element {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0px;
+}
+
+.packages .element-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    width: 100%;
+    text-transform: capitalize;
+}
+
+.packages .star {
+    color: white;
+    font-size: 7rem;
+    line-height: 6rem;
+}
+
+.packages .element-right {
+    width: 100%;
+    text-align: center;
+}
+
+.packages .element-right > span {
+    font-weight: 700;
+}
+
+.packages .packages-container > p {
+    padding-top: 2rem;
+    font-weight: 700;
+    text-align: center;
+    color: var(--brown);
+}
+
 /* poem styles */
 section.poem {
     background-color: #f7f9ff;
@@ -462,10 +523,6 @@ section.celebrate {
     background-size: cover;
     box-sizing: border-box;
     padding: 3rem;
-}
-
-.celebrate .left > img {
-    width: 100%;
 }
 
 .celebrate .right {
