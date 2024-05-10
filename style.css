@@ -296,9 +296,7 @@ section.poem {
 
 /* timeline styles */
 .timeline {
-    min-height: 100vh;
     box-sizing: border-box;
-    padding-left: 12rem;
     padding-top: 3rem;
     background-image: url("./assets/Orquidea\ compuesta.webp");
     background-position: -8rem;
@@ -307,6 +305,9 @@ section.poem {
 }
 
 .timeline .timeline-container {
+    height: 100vh;
+    width: 85%;
+    margin-left: auto;
     text-align: center;
 }
 
@@ -320,72 +321,174 @@ section.poem {
     font-weight: 400;
 }
 
-.timeline .timeline-list {
+.list-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.timeline-list {
     list-style-type: none;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     padding-top: 2rem;
 }
 
-.timestamp {
-    margin-bottom: 20px;
-    padding: 0px 40px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-weight: 100;
+li.li {
+    width: 100%;
 }
 
-.status {
-    padding: 0px 40px;
+.container {
+    position: relative;
+    height: 212px;
+    padding: 0px 0px 5rem;
+}
+
+.container.bottom {
+    padding: 5rem 0px 0px;
+}
+
+.message {
+    width: 85%;
+    margin: auto;
+    position: relative;
+    background-color: #bcb095;
+    text-align: left;
+    padding: 1rem;
+}
+
+.message:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-width: 43.3px 25px 0 25px;
+    border-color: #bcb095 transparent transparent transparent;
+    border-style: solid;
+    position: absolute;
+    left: 50%;
+    translate: -50%;
+}
+
+.message.bottom:after {
+    border-width: 0 25px 43.3px 25px;
+    border-color: transparent transparent #bcb095 transparent;
+    border-style: solid;
+    top: -1.75rem;
+}
+
+.timeline .star,
+.timeline-2 .star {
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    font-size: 2.5rem;
+    z-index: 0;
+}
+
+.timeline .bottom .star,
+.timeline-2 .bottom .star {
+    bottom: auto;
+    top: 0px;
+}
+
+.message-serial {
+    position: absolute;
+    top: -4rem;
+    left: -2rem;
+    font-size: 5rem;
+    font-weight: 700;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1.5px;
+    color: black;
+}
+
+.bottom .message-serial {
+    top: auto;
+    bottom: -4rem;
+}
+
+.message-title {
+    position: relative;
+    z-index: 10;
+    color: black;
+    font-size: 1.3rem;
+    text-align: center;
+    padding-bottom: 0.5rem;
+}
+
+.message-body {
+    position: relative;
+    z-index: 10;
+    color: black;
+    font-size: 1.1rem;
+}
+
+.icon {
+    height: 100%;
+}
+
+.block {
     display: flex;
     justify-content: center;
-    border-top: 2px solid var(--tan);
+    border-top: 1.5rem solid #d5c1b6;
     position: relative;
-    transition: all 200ms ease-in;
 }
 
-.status h4 {
-    font-weight: 600;
-}
-
-.status:before {
-    content: "";
-    width: 25px;
-    height: 25px;
+.block:before {
+    height: 5rem;
+    width: 18rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: white;
-    border-radius: 25px;
-    border: 1px solid #ddd;
+    border-radius: 1rem;
+    border: 3px solid #7c6069;
     position: absolute;
-    top: -15px;
-    left: 42%;
-    transition: all 200ms ease-in;
+    top: -3.5rem;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 1.4rem;
+    letter-spacing: 3px;
+    color: black;
 }
 
-/* Media Queries */
-@media (min-device-width: 320px) and (max-device-width: 700px) {
-    .timeline {
-        list-style-type: none;
-        display: block;
-    }
-
-    .li {
-        transition: all 200ms ease-in;
-        display: flex;
-        width: inherit;
-    }
-
-    .timestamp {
-        width: 100px;
-    }
-
-    .status:before {
-        left: -8%;
-        top: 30%;
-        transition: all 200ms ease-in;
-    }
+.timeline .item-1:before {
+    content: "BIENVENIDA";
+}
+.timeline .item-2:before {
+    content: "EMPATÍA";
+}
+.timeline .item-3:before {
+    content: "IDEACIÓN";
 }
 
+/* timeline 2 styles */
+section.timeline-2 {
+    height: 100vh;
+    box-sizing: border-box;
+    padding: 3rem 0px;
+    background-image: url("./assets/timeline-2-bg.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.timeline-2 .timeline-2-container {
+    width: 60%;
+    height: 100%;
+}
+
+.timeline-2 .item-4::before {
+    content: "PROTOTIPADO";
+}
+.timeline-2 .item-5::before {
+    content: "¡CELEBRACIÓN!";
+}
 /* gallery styles */
 section.gallery {
     height: 100vh;
