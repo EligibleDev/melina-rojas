@@ -240,6 +240,15 @@
         width: 31%;
     }
 
+    /* timelines */
+    section.timeline {
+        display: block;
+    }
+
+    section.timeline-2 {
+        display: flex;
+    }
+
     /* investments */
     .investments .process {
         font-size: 2rem;
@@ -284,6 +293,23 @@
 
     .symbolic-details .symbolic-details-content {
         font-size: 1.1rem;
+    }
+
+    /* timelines */
+    .timeline .timeline-container {
+        width: 85%;
+    }
+
+    .message-title {
+        font-size: 1.3rem;
+    }
+
+    section.timeline-2 {
+        margin: 10rem 0px 6rem;
+    }
+
+    .timeline-2 .timeline-2-container {
+        width: 65%;
     }
 
     /* packages */

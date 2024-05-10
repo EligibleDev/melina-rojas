@@ -295,18 +295,19 @@ section.poem {
 }
 
 /* timeline styles */
-.timeline {
+section.timeline {
     box-sizing: border-box;
     padding-top: 3rem;
     background-image: url("./assets/Orquidea\ compuesta.webp");
     background-position: -8rem;
     background-size: contain;
     background-repeat: no-repeat;
+    display: none;
 }
 
 .timeline .timeline-container {
-    height: 100vh;
-    width: 85%;
+    min-height: 100vh;
+    width: 100%;
     margin-left: auto;
     text-align: center;
 }
@@ -344,6 +345,7 @@ li.li {
     position: relative;
     height: 212px;
     padding: 0px 0px 5rem;
+    text-align: center;
 }
 
 .container.bottom {
@@ -414,7 +416,7 @@ li.li {
     position: relative;
     z-index: 10;
     color: black;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     text-align: center;
     padding-bottom: 0.5rem;
 }
@@ -473,14 +475,15 @@ section.timeline-2 {
     background-image: url("./assets/timeline-2-bg.webp");
     background-repeat: no-repeat;
     background-size: contain;
-    display: flex;
+    display: none;
     justify-content: flex-end;
     align-items: center;
+    margin: 10rem 0px 6rem;
 }
 
 .timeline-2 .timeline-2-container {
-    width: 60%;
-    height: 100%;
+    width: 90%;
+    min-height: 100%;
 }
 
 .timeline-2 .item-4::before {
@@ -489,6 +492,139 @@ section.timeline-2 {
 .timeline-2 .item-5::before {
     content: "¡CELEBRACIÓN!";
 }
+
+/* vertical timeline */
+.vertical-timeline {
+    position: relative;
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 15px 0;
+}
+
+.vertical-timeline::after {
+    content: "";
+    position: absolute;
+    width: 1.5rem;
+    background: #d5c1b6;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -12px;
+}
+
+.vertical-timeline .vertical-container {
+    padding: 15px 30px;
+    position: relative;
+    background: inherit;
+    width: 44.25%;
+}
+
+.vertical-timeline .vertical-container.left {
+    left: 0;
+}
+
+.vertical-timeline .vertical-container.right {
+    left: 50%;
+}
+
+.vertical-timeline .vertical-container::after {
+    position: absolute;
+    width: 9rem;
+    height: 3rem;
+    top: calc(50% - 26px);
+    right: -4rem;
+    background: white;
+    border: 3px solid #7c6069;
+    border-radius: 16px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vertical-timeline .vertical-container.right::after {
+    left: -4.6rem;
+}
+
+.vertical-timeline .item-1::after {
+    content: "BIENVENIDA";
+}
+.vertical-timeline .item-2::after {
+    content: "EMPATÍA";
+}
+.vertical-timeline .item-3::after {
+    content: "IDEACIÓN";
+}
+.vertical-timeline .item-4::after {
+    content: "PROTOTIPADO";
+}
+.vertical-timeline .item-5::after {
+    content: "¡CELEBRACIÓN!";
+}
+
+.vertical-timeline .vertical-container::before {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    top: calc(50% - 1px);
+    right: 8px;
+    background: #bcb095;
+    z-index: 1;
+}
+
+.vertical-timeline .vertical-container.right::before {
+    left: 8px;
+}
+
+.vertical-timeline .vertical-container .date {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: calc(50% - 80px);
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #006e51;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    z-index: 1;
+}
+
+.vertical-timeline .vertical-container.left .date {
+    right: -50%;
+}
+
+.vertical-timeline .vertical-container.right .date {
+    left: -75px;
+}
+
+.vertical-timeline .vertical-container .content {
+    padding: 30px 90px 30px 30px;
+    background: #bcb095;
+    position: relative;
+}
+
+.vertical-timeline .vertical-container.right .content {
+    padding: 30px 30px 30px 90px;
+}
+
+.vertical-timeline .vertical-container .content h2 {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+    font-weight: normal;
+    color: #006e51;
+}
+
+.vertical-timeline .vertical-container .content p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+}
+
 /* gallery styles */
 section.gallery {
     height: 100vh;
