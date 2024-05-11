@@ -53,6 +53,11 @@
         font-size: 1rem;
     }
 
+    /* vertical timeline */
+    .vertical-timeline .vertical-timeline-item-serial {
+        font-size: 4rem;
+    }
+
     /* gallery */
     section.gallery {
         grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -247,6 +252,10 @@
 
     section.timeline-2 {
         display: flex;
+    }
+
+    section.vertical-timeline {
+        display: none;
     }
 
     /* investments */
