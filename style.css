@@ -42,7 +42,7 @@
 section.banner {
     height: 100vh;
     min-height: 500px;
-    background-image: url("./assets/banner-bg.webp");
+    background-image: url("https://storage.googleapis.com/msgsndr/2bLPE7pNJtez9JbQrsya/media/6640d765b47850ed603912db.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -91,7 +91,7 @@ section.banner {
 section.intro {
     height: 100vh;
     min-height: 500px;
-    background-image: url("./assets/into-bg.jpg");
+    background-image: url("https://storage.googleapis.com/msgsndr/2bLPE7pNJtez9JbQrsya/media/6640d765660aba47de93e200.jpeg");
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
@@ -110,7 +110,7 @@ section.intro {
 /* about styles */
 section.about {
     min-height: 100vh;
-    background-image: url("./assets/banner-bg.webp");
+    background-image: url("https://storage.googleapis.com/msgsndr/2bLPE7pNJtez9JbQrsya/media/6640d765b47850ed603912db.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -298,7 +298,7 @@ section.poem {
 section.timeline {
     box-sizing: border-box;
     padding-top: 3rem;
-    background-image: url("./assets/Orquidea\ compuesta.webp");
+    background-image: url("https://storage.googleapis.com/msgsndr/2bLPE7pNJtez9JbQrsya/media/6640d7662f1cc01ebc16f78b.webp");
     background-position: -8rem;
     background-size: contain;
     background-repeat: no-repeat;
@@ -472,7 +472,7 @@ section.timeline-2 {
     height: 100vh;
     box-sizing: border-box;
     padding: 3rem 0px;
-    background-image: url("./assets/timeline-2-bg.webp");
+    background-image: url("https://storage.googleapis.com/msgsndr/2bLPE7pNJtez9JbQrsya/media/6640d7652f1cc0609716f789.webp");
     background-repeat: no-repeat;
     background-size: contain;
     display: none;
@@ -591,7 +591,7 @@ section.gallery {
 section.investments {
     min-height: 100vh;
     box-sizing: border-box;
-    background-image: url("./assets/banner-bg.webp");
+    background-image: url("https://storage.googleapis.com/msgsndr/2bLPE7pNJtez9JbQrsya/media/6640d765b47850ed603912db.webp");
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
@@ -638,7 +638,7 @@ section.investments {
 /* reminder section */
 section.reminder {
     height: 100vh;
-    background-image: url("./assets/reminder-bg.webp");
+    background-image: url("https://storage.googleapis.com/msgsndr/2bLPE7pNJtez9JbQrsya/media/6640d7652f1cc0500f16f784.webp");
     background-size: cover;
     background-position: 15%;
     display: flex;
@@ -710,7 +710,7 @@ section.celebrate {
 
 .celebrate .left {
     width: 100%;
-    background-image: url("./assets/symbolic-details-photo.webp");
+    background-image: url("https://storage.googleapis.com/msgsndr/2bLPE7pNJtez9JbQrsya/media/6640d7652f1cc0b40d16f783.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -722,7 +722,7 @@ section.celebrate {
     object-fit: cover;
     display: flex;
     align-items: flex-end;
-    background-image: url("./assets/couple.webp");
+    background-image: url("https://storage.googleapis.com/msgsndr/2bLPE7pNJtez9JbQrsya/media/6640d765699c7e9a2b2e715a.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -792,7 +792,7 @@ section.sea-gallery {
 section.contact {
     /* height: 100vh; */
     position: relative;
-    background-image: url("./assets/banner-bg.webp");
+    background-image: url("https://storage.googleapis.com/msgsndr/2bLPE7pNJtez9JbQrsya/media/6640d765b47850ed603912db.webp");
     background-position: center;
     background-repeat: no-repeat;
     text-transform: uppercase;
