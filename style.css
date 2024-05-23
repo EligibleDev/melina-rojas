@@ -1097,7 +1097,7 @@ section.sea-gallery {
     width: 0;
     height: 0;
     border-width: 50px 30.3px 50px 0;
-    border-color: transparent #fae7e5 transparent transparent;
+    border-color: transparent var(--primary-brown) transparent transparent;
     border-style: solid;
     margin-right: -2px;
 }
@@ -1112,7 +1112,7 @@ section.sea-gallery {
     width: 0;
     height: 0;
     border-width: 50px 0 50px 30.3px;
-    border-color: transparent transparent transparent #fae7e5;
+    border-color: transparent transparent transparent var(--primary-brown);
     border-style: solid;
     margin-left: -2px;
 }
